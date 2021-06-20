@@ -1,3 +1,6 @@
+// expressサーバーのカスタム設定ファイル
+// デフォルトではpagesのファイル名がそのままurlとしてルーティングされるが、今回はカスタムサーバーを使ってみる
+
 import express, { Request, Response } from "express";
 import next from "next";
 
